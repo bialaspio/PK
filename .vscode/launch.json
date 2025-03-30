@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://portal-katolika.pl/portalkatolika/",
+            "request": "launch",
+            "url": "http://portal-katolika.pl/portalkatolika/"
+        }
+    ]
+}

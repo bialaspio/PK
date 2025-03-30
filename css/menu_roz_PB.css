@@ -1,0 +1,88 @@
+.menu_a_t{
+    position:absolute;
+	width: 30px;
+    height: 30px;
+    top:340px;
+	margin:0px 10px;
+	text-align: center;
+	z-index: 13001;
+	cursor: pointer;
+	border: 2px solid #b5b5b5;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.icon_menu{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#additionalImages {
+    display: none;
+    position: absolute;
+    top:-2px;
+    left: 96%;
+    height: 30px;
+    background-color: whitesmoke;
+    border: 2px solid #b5b5b5;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0; 
+    border-left-width: 0px;
+    color:rgba(244, 165, 96, 0.5)
+}
+
+#additionalImages:hover {
+    display: flex;
+}
+
+#lupa:hover + #additionalImages {
+    display: flex;
+}
+
+#menu_icona:hover {
+   padding: 2px;
+    top:-2px;
+    border: 2px solid rgba(128, 128, 128, 0.644);
+    border-radius: 2px;
+}
+
+/*#divGeoSerwer:hover {
+    background-color: rgba(244, 165, 96, 0.651);
+}
+
+#divAjax:hover {
+    background-color: rgba(244, 165, 96, 0.651);
+}*/
+
+.a{
+    color: blue;
+}
+
+/* Styl dla rozwijanego menu */
+#contextMenu {
+    display: none;
+    position: absolute;
+    z-index: 10000;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+#contextMenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 0;
+}
+#contextMenu ul li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+#contextMenu ul li:hover {
+    background: #eee;
+}
+
+
+.asdfg{
+    color: rgba(244, 165, 96, 0.5);
+}
