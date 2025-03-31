@@ -258,7 +258,7 @@
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAaSHUQhpvquEhjoM6x46Htl0_OGLnsTQ&libraries=places"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=&libraries=places"></script>
 		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/menu_icon_left.js"></script>
